@@ -49,6 +49,7 @@ export default function Checkout() {
     if (cart.length === 0) return
     setOrderPlaced(true)
     setCart([])
+    setShowCart(false)
     setTimeout(() => setOrderPlaced(false), 4000)
   }
 

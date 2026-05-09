@@ -94,7 +94,7 @@ export default function Membership() {
                 onClick={() => handleJoin(plan.name)}
                 className={`w-full py-3 rounded-full font-bold text-sm transition-colors ${
                   plan.popular
-                    ? 'bg-primary-container text-on-primary-container hover:bg-primary-fixed-dim'
+                    ? 'bg-white/90 text-primary hover:bg-white'
                     : 'bg-primary-container text-on-primary-container hover:bg-primary-fixed-dim'
                 }`}
               >
